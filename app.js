@@ -1,7 +1,7 @@
 /* YOULAB landing — каталог, фильтры, корзина, оформление заказа */
 
 const CONFIG = {
-  telegram: "",            // username без @ — куда приходят заказы и корпоративные заявки
+  telegram: "dmi77",       // username без @ — куда приходят заказы и корпоративные заявки
   pageSize: 12,            // сколько карточек показывать за раз
   hitsCount: 4,            // сколько хитов на главной
 };
@@ -21,7 +21,7 @@ async function init() {
   renderCatalog();
   updateCartUI();
   const tg = CONFIG.telegram ? `https://t.me/${CONFIG.telegram}` : "#";
-  for (const id of ["tgCorpBtn", "tgFooter"]) document.getElementById(id).href = tg;
+  for (const id of ["tgCorpBtn", "tgFooter", "botBtn"]) document.getElementById(id).href = tg;
   if (window.sb) {
     const { data: { session } } = await sb.auth.getSession();
     if (session) document.getElementById("loginLink").textContent = "Кабинет";
