@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YOULAB — подарочные наборы</title>
+<meta name="description" content="YOULAB — подарочные наборы: шокобоксы, чайные наборы, косметика. Готовые подарки с доставкой и корпоративные заказы.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+
+<header class="header">
+  <a href="#" class="logo">YOULAB</a>
+  <nav class="nav">
+    <a href="#hits">Хиты</a>
+    <a href="#catalog">Каталог</a>
+    <a href="#corporate">Корпоративным</a>
+    <a href="#about">О бренде</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <div>
+    <a href="account.html" class="login-link" id="loginLink">Войти</a>
+    <button class="cart-btn" id="cartBtn" aria-label="Корзина">
+      Корзина <span class="cart-count" id="cartCount" hidden>0</span>
+    </button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Подарки, которые<br>говорят за вас</h1>
+  <p class="hero-sub">Шокобоксы, чайные наборы и косметика — готовые подарки на любой повод. Соберём, упакуем, доставим.</p>
+  <div class="hero-actions">
+    <a href="#catalog" class="btn btn-dark">Смотреть каталог</a>
+    <a href="#corporate" class="btn btn-light">Корпоративный заказ</a>
+  </div>
+</section>
+
+<section class="section" id="hits">
+  <div class="section-head">
+    <h2>Хиты продаж</h2>
+    <p class="muted">То, что дарят чаще всего</p>
+  </div>
+  <div class="grid" id="hitsGrid"></div>
+</section>
+
+<section class="section" id="catalog">
+  <div class="section-head">
+    <h2>Каталог</h2>
+    <p class="muted">Выберите категорию — или смотрите всё подряд</p>
+  </div>
+  <div class="chips" id="chips"></div>
+  <div class="grid" id="catalogGrid"></div>
+  <div class="grid-more">
+    <button class="btn btn-light" id="moreBtn" hidden>Показать ещё</button>
+  </div>
+</section>
+
+<section class="corporate" id="corporate">
+  <p class="corporate-label">Корпоративным клиентам</p>
+  <h2>Подарки для команды<br>и партнёров</h2>
+  <p class="corporate-sub">Наборы под ваш бюджет и повод: от 10 до 10 000 штук. Брендирование, персонализация, документы для юрлиц.</p>
+  <div class="hero-actions">
+    <a href="#" class="btn btn-white" id="tgCorpBtn">Написать в Telegram</a>
+    <a href="#" class="btn btn-outline-white" id="botBtn">Задать вопрос боту</a>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div class="about-cols">
+    <div>
+      <h2>О бренде</h2>
+      <p>YOULAB делает подарки, которые не стыдно вручить и приятно получить: собственное производство, продуманные составы и упаковка, в которой уже ничего не нужно докупать.</p>
+      <p>Нас выбирают на Wildberries и Ozon — тысячи заказов каждый месяц и оценки выше 4,8.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat"><span class="stat-num" id="statProducts">120+</span><span class="stat-label">товаров в каталоге</span></div>
+      <div class="stat"><span class="stat-num">200 000+</span><span class="stat-label">заказов за квартал</span></div>
+      <div class="stat"><span class="stat-num">4,8</span><span class="stat-label">средняя оценка</span></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" id="contacts">
+  <div class="footer-cols">
+    <div>
+      <p class="logo">YOULAB</p>
+      <p class="muted">Подарочные наборы и корпоративные подарки</p>
+    </div>
+    <div>
+      <p class="footer-title">Связаться</p>
+      <p><a href="#" id="tgFooter">Telegram</a></p>
+      <p><a href="mailto:hello@youlab.example">hello@youlab.example</a></p>
+    </div>
+    <div>
+      <p class="footer-title">Покупателям</p>
+      <p class="muted">Оплата онлайн, чек с НДС 22%</p>
+      <p class="muted">Доставка по всей России</p>
+    </div>
+  </div>
+  <p class="footer-fine muted">ИП · реквизиты появятся здесь</p>
+</footer>
+
+<div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+<aside class="drawer" id="cartDrawer" aria-label="Корзина">
+  <div class="drawer-head">
+    <h3>Корзина</h3>
+    <button class="drawer-close" id="drawerClose" aria-label="Закрыть">×</button>
+  </div>
+  <div class="drawer-body" id="cartItems"></div>
+  <div class="drawer-foot" id="cartFoot">
+    <div class="cart-total"><span>Итого</span><strong id="cartTotal">0 ₽</strong></div>
+    <button class="btn btn-dark btn-wide" id="checkoutBtn">Оформить заказ</button>
+  </div>
+  <form class="checkout" id="checkoutForm" hidden>
+    <h4>Данные для доставки</h4>
+    <input name="name" placeholder="Имя и фамилия" required>
+    <input name="phone" type="tel" placeholder="Телефон" required>
+    <input name="email" type="email" placeholder="Email (для чека)" required>
+    <input name="address" placeholder="Адрес доставки" required>
+    <textarea name="comment" placeholder="Комментарий к заказу" rows="2"></textarea>
+    <button type="submit" class="btn btn-dark btn-wide">Отправить заказ</button>
+    <p class="muted checkout-note">После отправки мы подтвердим заказ и пришлём ссылку на оплату. Чек с НДС 22% придёт на email.</p>
+  </form>
+</aside>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="config.js?v=4"></script>
+<script src="app.js?v=3"></script>
+</body>
+</html>

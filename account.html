@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Личный кабинет — YOULAB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html" class="logo">YOULAB</a>
+  <nav class="nav">
+    <a href="index.html#catalog">Каталог</a>
+    <a href="index.html#corporate">Корпоративным</a>
+    <a href="index.html#contacts">Контакты</a>
+  </nav>
+  <a href="index.html" class="cart-btn">← На сайт</a>
+</header>
+
+<main class="account">
+
+  <div id="notConfigured" hidden>
+    <h1>Личный кабинет</h1>
+    <p class="muted">Кабинет ещё не подключён — осталось создать проект Supabase и вставить ключи. Инструкция у Ангелины 🙂</p>
+  </div>
+
+  <div id="authBlock" hidden>
+    <h1>Вход в кабинет</h1>
+    <p class="muted account-sub">Бонусы за каждый заказ: кешбэк 5% баллами, 1 балл = 1 ₽</p>
+    <div class="auth-tabs">
+      <button class="chip active" id="tabLogin">Вход</button>
+      <button class="chip" id="tabSignup">Регистрация</button>
+    </div>
+    <form class="checkout auth-form" id="authForm">
+      <input name="name" placeholder="Имя" hidden>
+      <input name="email" type="email" placeholder="Email" required>
+      <input name="password" type="password" placeholder="Пароль (от 6 символов)" required minlength="6">
+      <button type="submit" class="btn btn-dark btn-wide" id="authSubmit">Войти</button>
+      <p class="auth-error" id="authError" hidden></p>
+    </form>
+  </div>
+
+  <div id="cabinet" hidden>
+    <div class="cabinet-head">
+      <h1 id="helloTitle">Кабинет</h1>
+      <button class="btn btn-light" id="logoutBtn">Выйти</button>
+    </div>
+
+    <div class="bonus-card">
+      <div>
+        <p class="bonus-label">Мои бонусы</p>
+        <p class="bonus-value"><span id="bonusBalance">0</span> баллов</p>
+      </div>
+      <p class="muted bonus-hint">Кешбэк 5% за каждый выполненный заказ.<br>1 балл = 1 ₽, спишутся при оплате.</p>
+    </div>
+
+    <section class="account-section">
+      <h2>Профиль</h2>
+      <form class="checkout profile-form" id="profileForm">
+        <input name="name" placeholder="Имя">
+        <input name="phone" type="tel" placeholder="Телефон">
+        <button type="submit" class="btn btn-dark">Сохранить</button>
+        <span class="muted" id="profileSaved" hidden>Сохранено ✓</span>
+      </form>
+    </section>
+
+    <section class="account-section">
+      <h2>Мои заказы</h2>
+      <div id="ordersList"><p class="muted">Пока заказов нет.</p></div>
+    </section>
+
+    <section class="account-section">
+      <h2>История бонусов</h2>
+      <div id="bonusList"><p class="muted">Операций пока не было.</p></div>
+    </section>
+  </div>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="config.js?v=4"></script>
+<script src="account.js?v=4"></script>
+</body>
+</html>
