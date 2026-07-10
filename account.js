@@ -70,6 +70,14 @@ async function showCabinet() {
     $("bonusBalance").textContent = profile.bonus_balance.toLocaleString("ru-RU");
     $("profileForm").name.value = profile.name || "";
     $("profileForm").phone.value = profile.phone || "";
+    if (profile.is_admin) {
+      const link = document.createElement("a");
+      link.href = "crm.html";
+      link.className = "btn btn-light";
+      link.style.marginLeft = "10px";
+      link.textContent = "Открыть CRM";
+      $("logoutBtn").after(link);
+    }
   }
 
   const { data: orders } = await sb.from("orders").select("*")

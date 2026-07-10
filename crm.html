@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRM — YOULAB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="crm.css?v=1">
+</head>
+<body class="crm-body">
+
+<div id="notConfigured" class="crm-gate" hidden>
+  <p>CRM не подключена — нет ключей Supabase.</p>
+</div>
+
+<div id="loginGate" class="crm-gate" hidden>
+  <div class="crm-login">
+    <h1>YOULAB CRM</h1>
+    <p class="muted">Вход для сотрудников</p>
+    <form id="crmLoginForm">
+      <input name="email" type="email" placeholder="Email" required>
+      <input name="password" type="password" placeholder="Пароль" required>
+      <button type="submit" class="btn btn-dark btn-wide" id="crmLoginBtn">Войти</button>
+      <p class="auth-error" id="crmLoginError" hidden></p>
+    </form>
+  </div>
+</div>
+
+<div id="noAccess" class="crm-gate" hidden>
+  <div class="crm-login">
+    <h1>Нет доступа</h1>
+    <p class="muted">Этот аккаунт не сотрудник. Войдите под рабочим аккаунтом.</p>
+    <button class="btn btn-light" id="noAccessLogout">Выйти</button>
+  </div>
+</div>
+
+<div id="board" hidden>
+  <header class="crm-header">
+    <div class="crm-title">
+      <span class="logo">YOULAB</span>
+      <span class="crm-badge">CRM</span>
+    </div>
+    <div class="crm-tools">
+      <span class="crm-stat" id="newCounter"></span>
+      <button class="btn btn-light crm-btn" id="exportBtn">Скачать CSV</button>
+      <button class="btn btn-light crm-btn" id="refreshBtn">Обновить</button>
+      <button class="btn btn-light crm-btn" id="crmLogout">Выйти</button>
+    </div>
+  </header>
+
+  <div class="crm-columns" id="columns"></div>
+</div>
+
+<div class="drawer-backdrop" id="cardBackdrop" hidden></div>
+<aside class="drawer crm-drawer" id="cardDrawer" aria-label="Заказ">
+  <div class="drawer-head">
+    <h3 id="cardTitle">Заказ</h3>
+    <button class="drawer-close" id="cardClose" aria-label="Закрыть">×</button>
+  </div>
+  <div class="drawer-body" id="cardBody"></div>
+</aside>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="config.js?v=4"></script>
+<script src="crm.js?v=1"></script>
+</body>
+</html>
