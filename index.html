@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
 
@@ -105,6 +105,23 @@
   <p class="footer-fine muted">ИП Коренков Андрей Валерьевич · ИНН 422803894673 · ОГРНИП 318420500044270</p>
 </footer>
 
+<div class="pm-backdrop" id="pmBackdrop" hidden></div>
+<div class="pm" id="productModal" role="dialog" aria-modal="true" hidden>
+  <button class="pm-close" id="pmClose" aria-label="Закрыть">×</button>
+  <div class="pm-img"><img id="pmImg" alt=""></div>
+  <div class="pm-info">
+    <div class="pm-cat" id="pmCat"></div>
+    <h2 class="pm-name" id="pmName"></h2>
+    <div class="pm-meta"><span class="pm-price" id="pmPrice"></span><span class="pm-rating" id="pmRating"></span></div>
+    <p class="pm-desc" id="pmDesc"></p>
+    <button class="btn btn-dark btn-wide" id="pmAdd">В корзину</button>
+    <div class="pm-links">
+      <a id="pmWb" target="_blank" rel="noopener" hidden>Отзывы и подробнее ↗</a>
+      <button class="pm-share" id="pmShare">Скопировать ссылку</button>
+    </div>
+  </div>
+</div>
+
 <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
 <aside class="drawer" id="cartDrawer" aria-label="Корзина">
   <div class="drawer-head">
@@ -130,6 +147,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="config.js?v=6"></script>
-<script src="app.js?v=6"></script>
+<script src="app.js?v=13"></script>
 </body>
 </html>

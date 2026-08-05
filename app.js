@@ -22,31 +22,66 @@ async function init() {
   updateCartUI();
   const tg = CONFIG.telegram ? `https://t.me/${CONFIG.telegram}` : "#";
   for (const id of ["tgCorpBtn", "tgFooter", "botBtn"]) document.getElementById(id).href = tg;
+  handleDeepLink();
   if (window.sb) {
     const { data: { session } } = await sb.auth.getSession();
     if (session) document.getElementById("loginLink").textContent = "Кабинет";
   }
-  handleDeepLink();
 }
 
-// Прямая ссылка на товар: ?p=SLUG — открыть каталог и подсветить набор
+// Прямая ссылка на товар: ?p=SLUG — открыть карточку товара поверх каталога
 function handleDeepLink() {
   const slug = new URLSearchParams(location.search).get("p");
-  if (!slug) return;
-  const prod = PRODUCTS.find((p) => p.slug === slug);
-  if (!prod) return;
-  activeCategory = "Все";
-  const idx = PRODUCTS.filter((p) => true).indexOf(prod);
-  shown = Math.max(shown, PRODUCTS.length);   // показать все, чтобы товар точно был в сетке
-  renderChips();
-  renderCatalog();
-  const el = document.getElementById("p-" + slug);
-  if (el) {
-    el.scrollIntoView({ behavior: "smooth", block: "center" });
-    el.classList.add("card-highlight");
-    setTimeout(() => el.classList.remove("card-highlight"), 4000);
-  }
+  if (slug && PRODUCTS.some((p) => p.slug === slug)) openProduct(slug, true);
 }
+
+/* --- Карточка товара (модалка) --- */
+const pm = document.getElementById("productModal");
+const pmBackdrop = document.getElementById("pmBackdrop");
+
+function openProduct(slug, initial) {
+  const p = PRODUCTS.find((x) => x.slug === slug);
+  if (!p) return;
+  document.getElementById("pmImg").src = "data/" + p.image;
+  document.getElementById("pmImg").alt = p.name;
+  document.getElementById("pmCat").textContent = p.category;
+  document.getElementById("pmName").textContent = p.name;
+  document.getElementById("pmPrice").textContent = p.price ? fmt(p.price) : "цена по запросу";
+  const rat = document.getElementById("pmRating");
+  rat.textContent = p.rating ? `★ ${p.rating}${p.feedbacks ? ` · ${p.feedbacks} отзывов` : ""}` : "";
+  document.getElementById("pmDesc").textContent =
+    `Готовый подарочный набор YOULAB из категории «${p.category}». Собран и упакован — можно сразу дарить. Точный состав и отзывы — по кнопке ниже.`;
+  const add = document.getElementById("pmAdd");
+  add.textContent = "В корзину";
+  add.onclick = () => { addToCart(p.sku); add.textContent = "Добавлено ✓"; setTimeout(() => add.textContent = "В корзину", 1200); };
+  const wb = document.getElementById("pmWb");
+  if (p.wb_id) { wb.href = `https://www.wildberries.ru/catalog/${p.wb_id}/detail.aspx`; wb.hidden = false; }
+  else wb.hidden = true;
+  document.getElementById("pmShare").onclick = () => {
+    navigator.clipboard?.writeText(location.origin + location.pathname + "?p=" + slug);
+    document.getElementById("pmShare").textContent = "Ссылка скопирована ✓";
+    setTimeout(() => document.getElementById("pmShare").textContent = "Скопировать ссылку", 1500);
+  };
+  pm.hidden = false; pmBackdrop.hidden = false;
+  document.body.classList.add("no-scroll");
+  const url = location.pathname + "?p=" + slug;
+  if (initial) history.replaceState({ p: slug }, "", url);
+  else history.pushState({ p: slug }, "", url);
+}
+
+function closeProduct() {
+  pm.hidden = true; pmBackdrop.hidden = true;
+  document.body.classList.remove("no-scroll");
+}
+
+document.getElementById("pmClose").onclick = () => history.back();
+pmBackdrop.onclick = () => history.back();
+window.addEventListener("popstate", () => {
+  const slug = new URLSearchParams(location.search).get("p");
+  if (slug && PRODUCTS.some((x) => x.slug === slug)) openProduct(slug, true);
+  else closeProduct();
+});
+window.addEventListener("keydown", (e) => { if (e.key === "Escape" && !pm.hidden) history.back(); });
 
 function renderChips() {
   const cats = ["Все", ...new Set(PRODUCTS.map((p) => p.category))];
@@ -73,7 +108,8 @@ function card(p, anchor) {
       <span class="card-price">${p.price ? fmt(p.price) : "по запросу"}</span>
       <button class="card-add" data-sku="${p.sku}">В корзину</button>
     </div>`;
-  el.querySelector(".card-add").onclick = (e) => addToCart(p.sku, e.target);
+  el.onclick = () => openProduct(p.slug);
+  el.querySelector(".card-add").onclick = (e) => { e.stopPropagation(); addToCart(p.sku, e.target); };
   return el;
 }
 
