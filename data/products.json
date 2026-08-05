@@ -11,7 +11,8 @@
   "price": 338,
   "rating": 4.9,
   "feedbacks": 1422,
-  "image": "images/430858880.webp"
+  "image": "images/430858880.webp",
+  "slug": "YG55"
  },
  {
   "sku": "YG09",
@@ -27,7 +28,8 @@
   "price": 337,
   "rating": 5,
   "feedbacks": 498,
-  "image": "images/317324871.webp"
+  "image": "images/317324871.webp",
+  "slug": "YG09"
  },
  {
   "sku": "SET0001",
@@ -41,7 +43,8 @@
   "price": 557,
   "rating": 5,
   "feedbacks": 13401,
-  "image": "images/70558486.webp"
+  "image": "images/70558486.webp",
+  "slug": "SET0001"
  },
  {
   "sku": "YG07",
@@ -57,7 +60,8 @@
   "price": 335,
   "rating": 5,
   "feedbacks": 462,
-  "image": "images/317324881.webp"
+  "image": "images/317324881.webp",
+  "slug": "YG07"
  },
  {
   "sku": "YG34",
@@ -71,7 +75,8 @@
   "price": 348,
   "rating": 4.9,
   "feedbacks": 2389,
-  "image": "images/317324896.webp"
+  "image": "images/317324896.webp",
+  "slug": "YG34"
  },
  {
   "sku": "YL/T2203/4",
@@ -85,7 +90,8 @@
   "price": 747,
   "rating": 5,
   "feedbacks": 2387,
-  "image": "images/16120581.webp"
+  "image": "images/16120581.webp",
+  "slug": "YLT22034"
  },
  {
   "sku": "YG08",
@@ -101,7 +107,8 @@
   "price": 328,
   "rating": 5,
   "feedbacks": 368,
-  "image": "images/317324882.webp"
+  "image": "images/317324882.webp",
+  "slug": "YG08"
  },
  {
   "sku": "YL/TEA30",
@@ -115,7 +122,8 @@
   "price": 1869,
   "rating": 4.9,
   "feedbacks": 2090,
-  "image": "images/17137998.webp"
+  "image": "images/17137998.webp",
+  "slug": "YLTEA30"
  },
  {
   "sku": "LB22228",
@@ -129,7 +137,8 @@
   "price": 1110,
   "rating": 4.9,
   "feedbacks": 2579,
-  "image": "images/249630294.webp"
+  "image": "images/249630294.webp",
+  "slug": "LB22228"
  },
  {
   "sku": "YLMEN/002",
@@ -143,7 +152,8 @@
   "price": 1141,
   "rating": 4.9,
   "feedbacks": 5241,
-  "image": "images/235851257.webp"
+  "image": "images/235851257.webp",
+  "slug": "YLMEN002"
  },
  {
   "sku": "HN/01",
@@ -157,7 +167,8 @@
   "price": 1683,
   "rating": 4.9,
   "feedbacks": 949,
-  "image": "images/523294140.webp"
+  "image": "images/523294140.webp",
+  "slug": "HN01"
  },
  {
   "sku": "LB2003131",
@@ -171,7 +182,8 @@
   "price": 1080,
   "rating": 4.9,
   "feedbacks": 6237,
-  "image": "images/16120582.webp"
+  "image": "images/16120582.webp",
+  "slug": "LB2003131"
  },
  {
   "sku": "COSM/003",
@@ -185,7 +197,8 @@
   "price": 925,
   "rating": 4.9,
   "feedbacks": 1841,
-  "image": "images/418594379.webp"
+  "image": "images/418594379.webp",
+  "slug": "COSM003"
  },
  {
   "sku": "YL/6tea/teacher",
@@ -201,7 +214,8 @@
   "price": 627,
   "rating": 4.9,
   "feedbacks": 404,
-  "image": "images/14888781.webp"
+  "image": "images/14888781.webp",
+  "slug": "YL6teateacher"
  },
  {
   "sku": "SIberia02",
@@ -215,7 +229,8 @@
   "price": 2299,
   "rating": 5,
   "feedbacks": 879,
-  "image": "images/282042478.webp"
+  "image": "images/282042478.webp",
+  "slug": "SIberia02"
  },
  {
   "sku": "YG11",
@@ -229,7 +244,8 @@
   "price": 343,
   "rating": 5,
   "feedbacks": 907,
-  "image": "images/317324905.webp"
+  "image": "images/317324905.webp",
+  "slug": "YG11"
  },
  {
   "sku": "YG27",
@@ -243,7 +259,8 @@
   "price": 312,
   "rating": 4.9,
   "feedbacks": 561,
-  "image": "images/317324891.webp"
+  "image": "images/317324891.webp",
+  "slug": "YG27"
  },
  {
   "sku": "YG17",
@@ -257,7 +274,8 @@
   "price": 384,
   "rating": 4.9,
   "feedbacks": 3191,
-  "image": "images/251801043.webp"
+  "image": "images/251801043.webp",
+  "slug": "YG17"
  },
  {
   "sku": "YL12",
@@ -271,7 +289,8 @@
   "price": 1114,
   "rating": 4.9,
   "feedbacks": 2934,
-  "image": "images/235851751.webp"
+  "image": "images/235851751.webp",
+  "slug": "YL12"
  },
  {
   "sku": "COSM/001",
@@ -285,7 +304,8 @@
   "price": 839,
   "rating": 4.9,
   "feedbacks": 1370,
-  "image": "images/418588894.webp"
+  "image": "images/418588894.webp",
+  "slug": "COSM001"
  },
  {
   "sku": "YL/6tea/vospit",
@@ -301,7 +321,8 @@
   "price": 575,
   "rating": 4.9,
   "feedbacks": 189,
-  "image": "images/136072472.webp"
+  "image": "images/136072472.webp",
+  "slug": "YL6teavospit"
  },
  {
   "sku": "YG20",
@@ -315,7 +336,8 @@
   "price": 302,
   "rating": 4.9,
   "feedbacks": 1122,
-  "image": "images/317324868.webp"
+  "image": "images/317324868.webp",
+  "slug": "YG20"
  },
  {
   "sku": "LBTEA01",
@@ -329,7 +351,8 @@
   "price": 713,
   "rating": 4.9,
   "feedbacks": 2306,
-  "image": "images/235851563.webp"
+  "image": "images/235851563.webp",
+  "slug": "LBTEA01"
  },
  {
   "sku": "YG12",
@@ -343,7 +366,8 @@
   "price": 343,
   "rating": 5,
   "feedbacks": 509,
-  "image": "images/317324895.webp"
+  "image": "images/317324895.webp",
+  "slug": "YG12"
  },
  {
   "sku": "YG01",
@@ -357,7 +381,8 @@
   "price": 384,
   "rating": 4.9,
   "feedbacks": 1581,
-  "image": "images/17473145.webp"
+  "image": "images/17473145.webp",
+  "slug": "YG01"
  },
  {
   "sku": "YG18",
@@ -371,7 +396,8 @@
   "price": 384,
   "rating": 4.9,
   "feedbacks": 1052,
-  "image": "images/317324877.webp"
+  "image": "images/317324877.webp",
+  "slug": "YG18"
  },
  {
   "sku": "YG16",
@@ -385,7 +411,8 @@
   "price": 331,
   "rating": 4.9,
   "feedbacks": 559,
-  "image": "images/317324909.webp"
+  "image": "images/317324909.webp",
+  "slug": "YG16"
  },
  {
   "sku": "YG35",
@@ -399,7 +426,8 @@
   "price": 343,
   "rating": 5,
   "feedbacks": 1181,
-  "image": "images/317324870.webp"
+  "image": "images/317324870.webp",
+  "slug": "YG35"
  },
  {
   "sku": "YG51",
@@ -413,7 +441,8 @@
   "price": 368,
   "rating": 4.9,
   "feedbacks": 2917,
-  "image": "images/430845252.webp"
+  "image": "images/430845252.webp",
+  "slug": "YG51"
  },
  {
   "sku": "YG29",
@@ -427,7 +456,8 @@
   "price": 343,
   "rating": 5,
   "feedbacks": 734,
-  "image": "images/317324880.webp"
+  "image": "images/317324880.webp",
+  "slug": "YG29"
  },
  {
   "sku": "YG76",
@@ -441,7 +471,8 @@
   "price": 383,
   "rating": 5,
   "feedbacks": 1039,
-  "image": "images/539450083.webp"
+  "image": "images/539450083.webp",
+  "slug": "YG76"
  },
  {
   "sku": "LavBeauty001",
@@ -455,7 +486,8 @@
   "price": 536,
   "rating": 4.9,
   "feedbacks": 1455,
-  "image": "images/252824386.webp"
+  "image": "images/252824386.webp",
+  "slug": "LavBeauty001"
  },
  {
   "sku": "YG73",
@@ -469,7 +501,8 @@
   "price": 326,
   "rating": 4.9,
   "feedbacks": 1044,
-  "image": "images/539450074.webp"
+  "image": "images/539450074.webp",
+  "slug": "YG73"
  },
  {
   "sku": "YG47",
@@ -483,7 +516,8 @@
   "price": 368,
   "rating": 5,
   "feedbacks": 2217,
-  "image": "images/262570513.webp"
+  "image": "images/262570513.webp",
+  "slug": "YG47"
  },
  {
   "sku": "YG50",
@@ -497,7 +531,8 @@
   "price": 400,
   "rating": 4.9,
   "feedbacks": 2324,
-  "image": "images/430841665.webp"
+  "image": "images/430841665.webp",
+  "slug": "YG50"
  },
  {
   "sku": "YG57",
@@ -511,7 +546,8 @@
   "price": 328,
   "rating": 5,
   "feedbacks": 257,
-  "image": "images/450813683.webp"
+  "image": "images/450813683.webp",
+  "slug": "YG57"
  },
  {
   "sku": "LB2001169",
@@ -525,7 +561,8 @@
   "price": 1080,
   "rating": 4.9,
   "feedbacks": 1936,
-  "image": "images/46090851.webp"
+  "image": "images/46090851.webp",
+  "slug": "LB2001169"
  },
  {
   "sku": "YG62",
@@ -539,7 +576,8 @@
   "price": 384,
   "rating": 4.9,
   "feedbacks": 322,
-  "image": "images/502392118.webp"
+  "image": "images/502392118.webp",
+  "slug": "YG62"
  },
  {
   "sku": "COSM/004",
@@ -553,7 +591,8 @@
   "price": 839,
   "rating": 4.9,
   "feedbacks": 626,
-  "image": "images/418598365.webp"
+  "image": "images/418598365.webp",
+  "slug": "COSM004"
  },
  {
   "sku": "YG19",
@@ -563,7 +602,8 @@
   "tags": [],
   "wb_id": null,
   "ozon_id": 1860480281,
-  "q3_orders": 1750
+  "q3_orders": 1750,
+  "slug": "YG19"
  },
  {
   "sku": "YLMEN/001",
@@ -577,7 +617,8 @@
   "price": 872,
   "rating": 4.9,
   "feedbacks": 2163,
-  "image": "images/235851153.webp"
+  "image": "images/235851153.webp",
+  "slug": "YLMEN001"
  },
  {
   "sku": "YG05",
@@ -591,7 +632,8 @@
   "price": 316,
   "rating": 5,
   "feedbacks": 1112,
-  "image": "images/317324887.webp"
+  "image": "images/317324887.webp",
+  "slug": "YG05"
  },
  {
   "sku": "YG37",
@@ -605,7 +647,8 @@
   "price": 296,
   "rating": 5,
   "feedbacks": 387,
-  "image": "images/317324873.webp"
+  "image": "images/317324873.webp",
+  "slug": "YG37"
  },
  {
   "sku": "YG48",
@@ -619,7 +662,8 @@
   "price": 328,
   "rating": 4.9,
   "feedbacks": 457,
-  "image": "images/430831092.webp"
+  "image": "images/430831092.webp",
+  "slug": "YG48"
  },
  {
   "sku": "YG02",
@@ -633,7 +677,8 @@
   "price": 343,
   "rating": 4.9,
   "feedbacks": 792,
-  "image": "images/317324903.webp"
+  "image": "images/317324903.webp",
+  "slug": "YG02"
  },
  {
   "sku": "YG15",
@@ -647,7 +692,8 @@
   "price": 339,
   "rating": 4.9,
   "feedbacks": 571,
-  "image": "images/317324874.webp"
+  "image": "images/317324874.webp",
+  "slug": "YG15"
  },
  {
   "sku": "YG06",
@@ -661,7 +707,8 @@
   "price": 384,
   "rating": 4.9,
   "feedbacks": 233,
-  "image": "images/505485462.webp"
+  "image": "images/505485462.webp",
+  "slug": "YG06"
  },
  {
   "sku": "LB2002137",
@@ -671,7 +718,8 @@
   "tags": [],
   "wb_id": null,
   "ozon_id": 210353695,
-  "q3_orders": 1030
+  "q3_orders": 1030,
+  "slug": "LB2002137"
  },
  {
   "sku": "YG45",
@@ -685,7 +733,8 @@
   "price": 312,
   "rating": 4.8,
   "feedbacks": 851,
-  "image": "images/262556658.webp"
+  "image": "images/262556658.webp",
+  "slug": "YG45"
  },
  {
   "sku": "YG56",
@@ -699,7 +748,8 @@
   "price": 343,
   "rating": 4.9,
   "feedbacks": 189,
-  "image": "images/430848509.webp"
+  "image": "images/430848509.webp",
+  "slug": "YG56"
  },
  {
   "sku": "YG49",
@@ -713,7 +763,8 @@
   "price": 328,
   "rating": 4.9,
   "feedbacks": 198,
-  "image": "images/430834003.webp"
+  "image": "images/430834003.webp",
+  "slug": "YG49"
  },
  {
   "sku": "YG78",
@@ -727,7 +778,8 @@
   "price": 296,
   "rating": 4.9,
   "feedbacks": 396,
-  "image": "images/539450086.webp"
+  "image": "images/539450086.webp",
+  "slug": "YG78"
  },
  {
   "sku": "YG22",
@@ -741,7 +793,8 @@
   "price": 384,
   "rating": 4.8,
   "feedbacks": 368,
-  "image": "images/262563937.webp"
+  "image": "images/262563937.webp",
+  "slug": "YG22"
  },
  {
   "sku": "YG69",
@@ -755,7 +808,8 @@
   "price": 320,
   "rating": 4.9,
   "feedbacks": 78,
-  "image": "images/502392137.webp"
+  "image": "images/502392137.webp",
+  "slug": "YG69"
  },
  {
   "sku": "YG41",
@@ -769,7 +823,8 @@
   "price": 312,
   "rating": 5,
   "feedbacks": 224,
-  "image": "images/317324872.webp"
+  "image": "images/317324872.webp",
+  "slug": "YG41"
  },
  {
   "sku": "YG74",
@@ -783,7 +838,8 @@
   "price": 335,
   "rating": 4.9,
   "feedbacks": 206,
-  "image": "images/539450077.webp"
+  "image": "images/539450077.webp",
+  "slug": "YG74"
  },
  {
   "sku": "YG80",
@@ -797,7 +853,8 @@
   "price": 346,
   "rating": 4.9,
   "feedbacks": 537,
-  "image": "images/539450066.webp"
+  "image": "images/539450066.webp",
+  "slug": "YG80"
  },
  {
   "sku": "YG23",
@@ -811,7 +868,8 @@
   "price": 384,
   "rating": 5,
   "feedbacks": 407,
-  "image": "images/317324898.webp"
+  "image": "images/317324898.webp",
+  "slug": "YG23"
  },
  {
   "sku": "LB200195",
@@ -825,7 +883,8 @@
   "price": 1122,
   "rating": 4.9,
   "feedbacks": 1681,
-  "image": "images/14683378.webp"
+  "image": "images/14683378.webp",
+  "slug": "LB200195"
  },
  {
   "sku": "YG54",
@@ -839,7 +898,8 @@
   "price": 320,
   "rating": 4.9,
   "feedbacks": 358,
-  "image": "images/430851472.webp"
+  "image": "images/430851472.webp",
+  "slug": "YG54"
  },
  {
   "sku": "LB2002139",
@@ -853,7 +913,8 @@
   "price": 1163,
   "rating": 4.9,
   "feedbacks": 1177,
-  "image": "images/17138001.webp"
+  "image": "images/17138001.webp",
+  "slug": "LB2002139"
  },
  {
   "sku": "YG33",
@@ -867,7 +928,8 @@
   "price": 386,
   "rating": 4.9,
   "feedbacks": 192,
-  "image": "images/372661586.webp"
+  "image": "images/372661586.webp",
+  "slug": "YG33"
  },
  {
   "sku": "YG81",
@@ -881,7 +943,8 @@
   "price": 313,
   "rating": 5,
   "feedbacks": 1170,
-  "image": "images/574188111.webp"
+  "image": "images/574188111.webp",
+  "slug": "YG81"
  },
  {
   "sku": "YG39",
@@ -895,7 +958,8 @@
   "price": 300,
   "rating": 5,
   "feedbacks": 80,
-  "image": "images/317324901.webp"
+  "image": "images/317324901.webp",
+  "slug": "YG39"
  },
  {
   "sku": "YG67",
@@ -909,7 +973,8 @@
   "price": 343,
   "rating": 4.9,
   "feedbacks": 219,
-  "image": "images/502392128.webp"
+  "image": "images/502392128.webp",
+  "slug": "YG67"
  },
  {
   "sku": "LB2001171",
@@ -923,7 +988,8 @@
   "price": 1164,
   "rating": 4.9,
   "feedbacks": 2301,
-  "image": "images/46571130.webp"
+  "image": "images/46571130.webp",
+  "slug": "LB2001171"
  },
  {
   "sku": "YG14",
@@ -937,7 +1003,8 @@
   "price": 364,
   "rating": 4.9,
   "feedbacks": 476,
-  "image": "images/14683394.webp"
+  "image": "images/14683394.webp",
+  "slug": "YG14"
  },
  {
   "sku": "YL11",
@@ -951,7 +1018,8 @@
   "price": 827,
   "rating": 4.9,
   "feedbacks": 235,
-  "image": "images/329697095.webp"
+  "image": "images/329697095.webp",
+  "slug": "YL11"
  },
  {
   "sku": "YG70",
@@ -965,7 +1033,8 @@
   "price": 339,
   "rating": 5,
   "feedbacks": 55,
-  "image": "images/539450068.webp"
+  "image": "images/539450068.webp",
+  "slug": "YG70"
  },
  {
   "sku": "YG24",
@@ -979,7 +1048,8 @@
   "price": 364,
   "rating": 4.9,
   "feedbacks": 251,
-  "image": "images/317324864.webp"
+  "image": "images/317324864.webp",
+  "slug": "YG24"
  },
  {
   "sku": "YG72",
@@ -993,7 +1063,8 @@
   "price": 320,
   "rating": 5,
   "feedbacks": 136,
-  "image": "images/539450071.webp"
+  "image": "images/539450071.webp",
+  "slug": "YG72"
  },
  {
   "sku": "YG79",
@@ -1007,7 +1078,8 @@
   "price": 344,
   "rating": 4.9,
   "feedbacks": 159,
-  "image": "images/539450064.webp"
+  "image": "images/539450064.webp",
+  "slug": "YG79"
  },
  {
   "sku": "YG25",
@@ -1021,7 +1093,8 @@
   "price": 343,
   "rating": 5,
   "feedbacks": 557,
-  "image": "images/317324878.webp"
+  "image": "images/317324878.webp",
+  "slug": "YG25"
  },
  {
   "sku": "YG53",
@@ -1035,7 +1108,8 @@
   "price": 296,
   "rating": 5,
   "feedbacks": 25,
-  "image": "images/430854101.webp"
+  "image": "images/430854101.webp",
+  "slug": "YG53"
  },
  {
   "sku": "YL10",
@@ -1049,7 +1123,8 @@
   "price": 1123,
   "rating": 4.9,
   "feedbacks": 697,
-  "image": "images/282042479.webp"
+  "image": "images/282042479.webp",
+  "slug": "YL10"
  },
  {
   "sku": "YG44",
@@ -1063,7 +1138,8 @@
   "price": 296,
   "rating": 4.9,
   "feedbacks": 126,
-  "image": "images/262559335.webp"
+  "image": "images/262559335.webp",
+  "slug": "YG44"
  },
  {
   "sku": "YG52",
@@ -1077,7 +1153,8 @@
   "price": 320,
   "rating": 5,
   "feedbacks": 72,
-  "image": "images/450819554.webp"
+  "image": "images/450819554.webp",
+  "slug": "YG52"
  },
  {
   "sku": "LB2102159",
@@ -1091,7 +1168,8 @@
   "price": 1163,
   "rating": 5,
   "feedbacks": 577,
-  "image": "images/19041360.webp"
+  "image": "images/19041360.webp",
+  "slug": "LB2102159"
  },
  {
   "sku": "LB2001100",
@@ -1105,7 +1183,8 @@
   "price": 1080,
   "rating": 5,
   "feedbacks": 420,
-  "image": "images/14683374.webp"
+  "image": "images/14683374.webp",
+  "slug": "LB2001100"
  },
  {
   "sku": "YG21",
@@ -1119,7 +1198,8 @@
   "price": 312,
   "rating": 4.9,
   "feedbacks": 228,
-  "image": "images/262567494.webp"
+  "image": "images/262567494.webp",
+  "slug": "YG21"
  },
  {
   "sku": "YG75",
@@ -1133,7 +1213,8 @@
   "price": 328,
   "rating": 5,
   "feedbacks": 31,
-  "image": "images/574181447.webp"
+  "image": "images/574181447.webp",
+  "slug": "YG75"
  },
  {
   "sku": "YG58",
@@ -1147,7 +1228,8 @@
   "price": 301,
   "rating": 5,
   "feedbacks": 68,
-  "image": "images/450817857.webp"
+  "image": "images/450817857.webp",
+  "slug": "YG58"
  },
  {
   "sku": "YG71",
@@ -1161,7 +1243,8 @@
   "price": 367,
   "rating": 5,
   "feedbacks": 146,
-  "image": "images/598934888.webp"
+  "image": "images/598934888.webp",
+  "slug": "YG71"
  },
  {
   "sku": "YL02",
@@ -1175,7 +1258,8 @@
   "price": 1081,
   "rating": 5,
   "feedbacks": 179,
-  "image": "images/261055137.webp"
+  "image": "images/261055137.webp",
+  "slug": "YL02"
  },
  {
   "sku": "LB2001170",
@@ -1189,7 +1273,8 @@
   "price": 1163,
   "rating": 5,
   "feedbacks": 895,
-  "image": "images/46566029.webp"
+  "image": "images/46566029.webp",
+  "slug": "LB2001170"
  },
  {
   "sku": "LB2102162",
@@ -1203,7 +1288,8 @@
   "price": 1163,
   "rating": 5,
   "feedbacks": 899,
-  "image": "images/19041361.webp"
+  "image": "images/19041361.webp",
+  "slug": "LB2102162"
  },
  {
   "sku": "LB2101160",
@@ -1217,7 +1303,8 @@
   "price": 1247,
   "rating": 4.9,
   "feedbacks": 286,
-  "image": "images/19041355.webp"
+  "image": "images/19041355.webp",
+  "slug": "LB2101160"
  },
  {
   "sku": "YL/6tea/par",
@@ -1231,7 +1318,8 @@
   "price": 649,
   "rating": 4.9,
   "feedbacks": 223,
-  "image": "images/527693799.webp"
+  "image": "images/527693799.webp",
+  "slug": "YL6teapar"
  },
  {
   "sku": "YL/6tea/grandpar",
@@ -1245,7 +1333,8 @@
   "price": 649,
   "rating": 4.9,
   "feedbacks": 159,
-  "image": "images/527668997.webp"
+  "image": "images/527668997.webp",
+  "slug": "YL6teagrandpar"
  },
  {
   "sku": "YG59",
@@ -1260,7 +1349,8 @@
   "q3_orders": 30,
   "rating": 5,
   "feedbacks": 333,
-  "image": "images/529574126.webp"
+  "image": "images/529574126.webp",
+  "slug": "YG59"
  },
  {
   "sku": "YG60",
@@ -1275,7 +1365,8 @@
   "q3_orders": 30,
   "rating": 4.9,
   "feedbacks": 402,
-  "image": "images/529574129.webp"
+  "image": "images/529574129.webp",
+  "slug": "YG60"
  },
  {
   "sku": "YG63",
@@ -1290,7 +1381,8 @@
   "q3_orders": 30,
   "rating": 4.9,
   "feedbacks": 355,
-  "image": "images/529574132.webp"
+  "image": "images/529574132.webp",
+  "slug": "YG63"
  },
  {
   "sku": "YG64",
@@ -1305,7 +1397,8 @@
   "q3_orders": 30,
   "rating": 5,
   "feedbacks": 319,
-  "image": "images/529574133.webp"
+  "image": "images/529574133.webp",
+  "slug": "YG64"
  },
  {
   "sku": "YG65",
@@ -1320,7 +1413,8 @@
   "q3_orders": 30,
   "rating": 4.9,
   "feedbacks": 292,
-  "image": "images/529574135.webp"
+  "image": "images/529574135.webp",
+  "slug": "YG65"
  },
  {
   "sku": "YG66",
@@ -1335,7 +1429,8 @@
   "q3_orders": 30,
   "rating": 5,
   "feedbacks": 270,
-  "image": "images/529574138.webp"
+  "image": "images/529574138.webp",
+  "slug": "YG66"
  },
  {
   "sku": "YG30",
@@ -1351,7 +1446,8 @@
   "price": 228,
   "rating": 4.9,
   "feedbacks": 1259,
-  "image": "images/317324893.webp"
+  "image": "images/317324893.webp",
+  "slug": "YG30"
  },
  {
   "sku": "YG31",
@@ -1367,7 +1463,8 @@
   "price": 221,
   "rating": 4.9,
   "feedbacks": 1106,
-  "image": "images/317324888.webp"
+  "image": "images/317324888.webp",
+  "slug": "YG31"
  },
  {
   "sku": "CH/COMBO/01",
@@ -1382,7 +1479,8 @@
   "q3_orders": 0,
   "rating": 4.9,
   "feedbacks": 202,
-  "image": "images/585837264.webp"
+  "image": "images/585837264.webp",
+  "slug": "CHCOMBO01"
  },
  {
   "sku": "CH/COMBO/02",
@@ -1397,7 +1495,8 @@
   "q3_orders": 0,
   "rating": 4.9,
   "feedbacks": 92,
-  "image": "images/585842565.webp"
+  "image": "images/585842565.webp",
+  "slug": "CHCOMBO02"
  },
  {
   "sku": "YG82",
@@ -1411,7 +1510,8 @@
   "price": 343,
   "rating": 4.9,
   "feedbacks": 105,
-  "image": "images/808339787.webp"
+  "image": "images/808339787.webp",
+  "slug": "YG82"
  },
  {
   "sku": "YG83",
@@ -1425,7 +1525,8 @@
   "price": 379,
   "rating": 4.9,
   "feedbacks": 29,
-  "image": "images/858915117.webp"
+  "image": "images/858915117.webp",
+  "slug": "YG83"
  },
  {
   "sku": "YG84",
@@ -1439,7 +1540,8 @@
   "price": 343,
   "rating": 4.8,
   "feedbacks": 34,
-  "image": "images/860823228.webp"
+  "image": "images/860823228.webp",
+  "slug": "YG84"
  },
  {
   "sku": "YG85",
@@ -1453,7 +1555,8 @@
   "price": 379,
   "rating": 5,
   "feedbacks": 46,
-  "image": "images/860828468.webp"
+  "image": "images/860828468.webp",
+  "slug": "YG85"
  },
  {
   "sku": "YL/6tea/NY",
@@ -1468,7 +1571,8 @@
   "q3_orders": 0,
   "rating": 4.8,
   "feedbacks": 183,
-  "image": "images/527681141.webp"
+  "image": "images/527681141.webp",
+  "slug": "YL6teaNY"
  },
  {
   "sku": "tea/8Mar",
@@ -1482,7 +1586,8 @@
   "price": 545,
   "rating": 4.9,
   "feedbacks": 186,
-  "image": "images/783071633.webp"
+  "image": "images/783071633.webp",
+  "slug": "tea8Mar"
  },
  {
   "sku": "tea/23Feb",
@@ -1496,7 +1601,8 @@
   "price": 553,
   "rating": 5,
   "feedbacks": 69,
-  "image": "images/783067966.webp"
+  "image": "images/783067966.webp",
+  "slug": "tea23Feb"
  },
  {
   "sku": "YL/6tea/NY02",
@@ -1509,7 +1615,8 @@
   "q3_orders": 0,
   "rating": 4.9,
   "feedbacks": 103,
-  "image": "images/694721566.webp"
+  "image": "images/694721566.webp",
+  "slug": "YL6teaNY02"
  },
  {
   "sku": "YL14",
@@ -1523,7 +1630,8 @@
   "price": 747,
   "rating": 4.8,
   "feedbacks": 37,
-  "image": "images/833465118.webp"
+  "image": "images/833465118.webp",
+  "slug": "YL14"
  },
  {
   "sku": "YL15",
@@ -1537,7 +1645,8 @@
   "price": 664,
   "rating": 4.9,
   "feedbacks": 35,
-  "image": "images/909514675.webp"
+  "image": "images/909514675.webp",
+  "slug": "YL15"
  },
  {
   "sku": "YL07",
@@ -1552,7 +1661,8 @@
   "q3_orders": 0,
   "rating": 4.9,
   "feedbacks": 83,
-  "image": "images/585777423.webp"
+  "image": "images/585777423.webp",
+  "slug": "YL07"
  },
  {
   "sku": "YL08",
@@ -1567,7 +1677,8 @@
   "q3_orders": 0,
   "rating": 5,
   "feedbacks": 90,
-  "image": "images/585800274.webp"
+  "image": "images/585800274.webp",
+  "slug": "YL08"
  },
  {
   "sku": "YL09",
@@ -1582,7 +1693,8 @@
   "q3_orders": 0,
   "rating": 4.9,
   "feedbacks": 138,
-  "image": "images/585815011.webp"
+  "image": "images/585815011.webp",
+  "slug": "YL09"
  },
  {
   "sku": "YL13",
@@ -1597,7 +1709,8 @@
   "q3_orders": 0,
   "rating": 5,
   "feedbacks": 152,
-  "image": "images/585825118.webp"
+  "image": "images/585825118.webp",
+  "slug": "YL13"
  },
  {
   "sku": "YL16",
@@ -1611,7 +1724,8 @@
   "price": 713,
   "rating": 4.9,
   "feedbacks": 23,
-  "image": "images/909509819.webp"
+  "image": "images/909509819.webp",
+  "slug": "YL16"
  },
  {
   "sku": "YL18",
@@ -1625,7 +1739,8 @@
   "price": 1396,
   "rating": 5,
   "feedbacks": 138,
-  "image": "images/966196812.webp"
+  "image": "images/966196812.webp",
+  "slug": "YL18"
  },
  {
   "sku": "YL23",
@@ -1639,7 +1754,8 @@
   "price": 1437,
   "rating": 5,
   "feedbacks": 12,
-  "image": "images/1140433714.webp"
+  "image": "images/1140433714.webp",
+  "slug": "YL23"
  },
  {
   "sku": "YL24",
@@ -1653,7 +1769,8 @@
   "price": 1379,
   "rating": 5,
   "feedbacks": 9,
-  "image": "images/1140441981.webp"
+  "image": "images/1140441981.webp",
+  "slug": "YL24"
  },
  {
   "sku": "LB2003133",
@@ -1668,7 +1785,8 @@
   "q3_orders": 0,
   "rating": 5,
   "feedbacks": 274,
-  "image": "images/16439330.webp"
+  "image": "images/16439330.webp",
+  "slug": "LB2003133"
  },
  {
   "sku": "LB2003135",
@@ -1683,7 +1801,8 @@
   "q3_orders": 0,
   "rating": 4.9,
   "feedbacks": 457,
-  "image": "images/16439332.webp"
+  "image": "images/16439332.webp",
+  "slug": "LB2003135"
  },
  {
   "sku": "LB20031320",
@@ -1693,7 +1812,8 @@
   "tags": [],
   "wb_id": null,
   "ozon_id": null,
-  "q3_orders": 0
+  "q3_orders": 0,
+  "slug": "LB20031320"
  },
  {
   "sku": "YL17",
@@ -1707,7 +1827,8 @@
   "price": 1055,
   "rating": 5,
   "feedbacks": 12,
-  "image": "images/914872510.webp"
+  "image": "images/914872510.webp",
+  "slug": "YL17"
  },
  {
   "sku": "YL19",
@@ -1721,7 +1842,8 @@
   "price": 781,
   "rating": 5,
   "feedbacks": 8,
-  "image": "images/1028681131.webp"
+  "image": "images/1028681131.webp",
+  "slug": "YL19"
  },
  {
   "sku": "YL20",
@@ -1735,7 +1857,8 @@
   "price": 997,
   "rating": 5,
   "feedbacks": 4,
-  "image": "images/1028681133.webp"
+  "image": "images/1028681133.webp",
+  "slug": "YL20"
  },
  {
   "sku": "YL21",
@@ -1749,7 +1872,8 @@
   "price": 1620,
   "rating": 5,
   "feedbacks": 4,
-  "image": "images/1028681135.webp"
+  "image": "images/1028681135.webp",
+  "slug": "YL21"
  },
  {
   "sku": "YL22",
@@ -1761,7 +1885,8 @@
   "ozon_id": null,
   "q3_orders": 0,
   "price": 1361,
-  "image": "images/1179011322.webp"
+  "image": "images/1179011322.webp",
+  "slug": "YL22"
  },
  {
   "sku": "YL25",
@@ -1773,6 +1898,7 @@
   "ozon_id": null,
   "q3_orders": 0,
   "price": 1429,
-  "image": "images/1179020840.webp"
+  "image": "images/1179020840.webp",
+  "slug": "YL25"
  }
 ]

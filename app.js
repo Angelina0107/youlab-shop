@@ -26,6 +26,26 @@ async function init() {
     const { data: { session } } = await sb.auth.getSession();
     if (session) document.getElementById("loginLink").textContent = "Кабинет";
   }
+  handleDeepLink();
+}
+
+// Прямая ссылка на товар: ?p=SLUG — открыть каталог и подсветить набор
+function handleDeepLink() {
+  const slug = new URLSearchParams(location.search).get("p");
+  if (!slug) return;
+  const prod = PRODUCTS.find((p) => p.slug === slug);
+  if (!prod) return;
+  activeCategory = "Все";
+  const idx = PRODUCTS.filter((p) => true).indexOf(prod);
+  shown = Math.max(shown, PRODUCTS.length);   // показать все, чтобы товар точно был в сетке
+  renderChips();
+  renderCatalog();
+  const el = document.getElementById("p-" + slug);
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth", block: "center" });
+    el.classList.add("card-highlight");
+    setTimeout(() => el.classList.remove("card-highlight"), 4000);
+  }
 }
 
 function renderChips() {
@@ -41,9 +61,10 @@ function renderChips() {
   }
 }
 
-function card(p) {
+function card(p, anchor) {
   const el = document.createElement("div");
   el.className = "card";
+  if (anchor) el.id = "p-" + p.slug;
   el.innerHTML = `
     <div class="card-img">${p.image ? `<img src="data/${p.image}" alt="${p.name}" loading="lazy">` : `<span class="no-photo">фото скоро</span>`}</div>
     <div class="card-cat">${p.category}</div>
@@ -67,7 +88,7 @@ function renderCatalog() {
   const grid = document.getElementById("catalogGrid");
   grid.innerHTML = "";
   const list = PRODUCTS.filter((p) => activeCategory === "Все" || p.category === activeCategory);
-  list.slice(0, shown).forEach((p) => grid.appendChild(card(p)));
+  list.slice(0, shown).forEach((p) => grid.appendChild(card(p, true)));
   const more = document.getElementById("moreBtn");
   more.hidden = list.length <= shown;
   more.onclick = () => { shown += CONFIG.pageSize; renderCatalog(); };
